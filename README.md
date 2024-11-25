@@ -1,34 +1,36 @@
 # Design System Learning
 
-Repository for 3-month UI/UX design system course exercises and implementations.
+Implementation of a 3-month UI/UX design system course, focusing on modern design principles and implementation.
+
+## Course Structure
+
+### Week 1: Design Fundamentals
+
+- ✅ Day 1: Typography System
+  - Blog post component
+  - Type scale implementation
+  - Font pairing & hierarchy
+- 📝 Day 2: Color Theory (Upcoming)
+- 📝 Day 3: Layout Systems (Upcoming)
+
+### Week 2: Component Architecture (Upcoming)
+
+### Week 3: Advanced Patterns (Upcoming)
 
 ## Project Structure
 
 ```
-design-systems/
-├── weeks/              # Weekly exercises and implementations
-│   └── week-1/
-│       ├── exercises/  # Practice exercises
-│       └── components/ # Completed components
-├── src/               # Core design system
-│   ├── styles/       # Global styles
-│   └── components/   # Reusable components
+src/
+├── exercises/
+│   └── weeks/
+│       └── week-1/
+│           └── typography/
+│               ├── BlogPost.tsx
+│               └── styles/
+│                   └── typography.css
+├── App.tsx
+└── App.css
 ```
-
-## Week 1: Design Fundamentals
-
-### Topics
-
-- Typography Systems
-- Color Theory
-- Layout Principles
-
-### Exercises
-
-1. Typography
-   - Blog post implementation
-   - Responsive type scale
-   - Visual hierarchy
 
 ## Getting Started
 
@@ -43,10 +45,22 @@ npm run dev
 ## Technologies
 
 - React
-- Vite
-- CSS Variables
+- TypeScript
+- CSS Custom Properties
+- Google Fonts
 
-## Links
+## Progress Tracking
 
-- [Design Resources](link-to-resources)
-- [Course Schedule](link-to-schedule)
+- [x] Week 1, Day 1: Typography Implementation
+- [ ] Week 1, Day 2: Color Theory
+- [ ] Week 1, Day 3: Layout Systems
+
+## Resources
+
+- Course Materials
+- Design System Examples
+- Implementation Guides
+
+## License
+
+MIT
