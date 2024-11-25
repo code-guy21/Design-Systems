@@ -1,0 +1,29 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.exercise-header {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.exercise-header .title {
+	font-family: var(--font-heading);
+	font-size: var(--text-2xl);
+	font-weight: var(--font-bold);
+	color: #1a202c;
+	margin-bottom: 0.5rem;
+}
+
+.exercise-header .description {
+	font-family: var(--font-body);
+	font-size: var(--text-base);
+	color: #4a5568;
+}
+
+.exercise-content {
+	margin: 0 auto;
+	max-width: 800px;
+}
